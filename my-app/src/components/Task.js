@@ -11,7 +11,7 @@ const Task = ({task,onDelete,onToggle}) => {
                 'red', cursor:'pointer'}} onClick={ () => onDelete(task.id)}/> 
                 {/* //state gets passed down and "actions gets passed up */}
             </h3>
-
+            <p>{task.date}</p>
         </div>
     )
 }
